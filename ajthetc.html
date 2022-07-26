@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div class="form-field">
+        <div class="form-group">
+            <label for="aname">Agent Name</label>
+            <input type="text" name="aname" value="<?php $aname; ?>" class="form-control form-control-lg">
+        </div>
+        <div class="form-group">
+            <label for="aemail">Agent Email</label>
+            <input type="aemail" name="aemail" value="<?php $aemail; ?>" class="form-control form-control-lg">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cname">Client 1 Name</label>
+        <input type="text" name="cname" value="<?php $cname; ?>" class="form-control form-control-lg">
+    </div>
+    </div>
+    <div class="form-group">
+        <label for="cemail">Client 1 Email</label>
+        <input type="cemail" name="cemail" value="<?php $cemail; ?>" class="form-control form-control-lg">
+    </div>
+    </div>
+    <div class="form-field">
+        <div class="form-group">
+            <label for="phone">Client 1 Phone Number</label>
+            <input type="tele" name="phone" value="<?php $phone; ?>" class="form-control form-control-lg">
+        </div>
+        <div class="form-group">
+            <label for="cname">Client 2 Name</label>
+            <input type="text" name="cname" value="<?php $cname; ?>" class="form-control form-control-lg">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cemail">Client 2 Email</label>
+        <input type="cemail" name="cemail" value="<?php $cemail; ?>" class="form-control form-control-lg">
+    </div>
+    </div>
+    <div class="form-field">
+        <div class="form-group">
+            <label for="phone">Client 2 Phone Number</label>
+            <input type="tele" name="phone" value="<?php $phone; ?>" class="form-control form-control-lg">
+        </div>
+
+        / REFERRAL OR TEAM SPLIT INFO /
+        <label for="pick">Is a referral fee to be paid or team split?:</label>
+        <select name="pick" id="pick">
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select>
+
+        <textarea name="text" cols="25" rows="5">
+Add important notes...
+</textarea>
